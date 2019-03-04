@@ -254,29 +254,31 @@ h6
 {
     float: right;
     margin-top: 16px;
-    height: 20px;
-    width: 60px;
     color: white;
+    width: 50px;
+    height: 0px;
     text-align: center;
-    padding-top: 6px;
     font-size: 12px;
-    padding-left: 12px;
 }
 .first
 {
-    background-color: #46a399;
+    border: solid 15px #46a399;
+    border-left: solid 10px transparent;
 }
 .second
 {
-    background-color: #e74a67;
+    border: solid 15px #e74a67;
+    border-left: solid 10px transparent;
 }
 .third
 {
-    background-color: #3aa5f7;
+    border: solid 15px #3aa5f7;
+    border-left: solid 10px transparent;
 }
 .fourth
 {
-    background-color: #f6b443; 
+    border: solid 15px #f6b443;
+    border-left: solid 10px transparent;
 }
 .statsValues
 {
@@ -290,6 +292,21 @@ h6
     margin-top: 32px;
     margin-left: 15px;
     font-size: 15px;
+}
+.upArrow
+{
+    color: #46a399
+}
+.downArrow
+{
+    color: #e74a67; 
+}
+.upDownArrow
+{
+    float: left;
+    margin-left: 180px;
+    margin-top: -30px;
+    font-size: 20px;
 }
 .arrows
 {
