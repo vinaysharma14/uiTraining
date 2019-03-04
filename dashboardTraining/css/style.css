@@ -248,7 +248,7 @@ h6
 .statsHeads
 {
     margin-top: 25px;
-    margin-left: 110px;
+    margin-left: 100px;
 }
 .ribbon
 {
@@ -262,7 +262,7 @@ h6
 }
 .ribbonValue
 {
-    margin-top: -5px;
+    margin-top: -6px;
     margin-left: 10px;
 }
 .first
@@ -290,7 +290,7 @@ h6
     color: #f7f8fe;
     font-size: 22px;
     margin-top: 15px;
-    margin-left: 110px;
+    margin-left: 100px;
 }
 .statsFoots
 {
@@ -458,3 +458,69 @@ td
     color: white;
     font-size: 12px;
 }
+.messageBox 
+{
+    width: auto;
+    margin: 50px auto;
+    border-radius: 15px;
+    background: #00bfb6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+}
+.sb13:before
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid #00bfb6;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #00bfb6;
+    border-bottom: 15px solid transparent;
+    right: -16px;
+    top: 0px;
+}
+.sb14:before
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #00bfb6;
+    border-top: 15px solid #00bfb6;
+    border-bottom: 15px solid transparent;
+    left: -16px;
+    top: 0px;
+}
+
+/*
+for triangle
+w:0
+h:0
+bottom:x
+left:x
+top:x
+one is transparent
+
+parent: relative
+child: absolute
+
+google font : roboto
+ellipse
+
+link hover
+ease in ease out
+height
+
+button
+keyframe animation
+
+add animation over all clickable area
+
+make page reponsive
+*/
