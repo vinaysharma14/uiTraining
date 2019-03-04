@@ -255,35 +255,43 @@ h6
     float: right;
     margin-top: 16px;
     color: white;
-    width: 50px;
-    height: 0px;
+    width: 70px;
+    height: 30px;
     text-align: center;
     font-size: 12px;
+    position: relative;
+}
+.ribbon::before
+{
+    content: "";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 0px;
+    border-left: 15px solid #626ed4;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
 }
 .ribbonValue
 {
-    margin-top: -6px;
+    margin-top: 8px;
     margin-left: 10px;
 }
 .first
 {
-    border: solid 15px #46a399;
-    border-left: solid 10px transparent;
+    background-color: #46a399;
 }
 .second
 {
-    border: solid 15px #e74a67;
-    border-left: solid 10px transparent;
+    background-color: #e74a67
 }
 .third
 {
-    border: solid 15px #3aa5f7;
-    border-left: solid 10px transparent;
+    background-color: #3aa5f7
 }
 .fourth
 {
-    border: solid 15px #f6b443;
-    border-left: solid 10px transparent;
+    background-color: #f6b443
 }
 .statsValues
 {
@@ -426,11 +434,12 @@ td
 #chatBox
 {
     margin-top: -10px;
-    background-color: #e6e4e4;
     margin-left: 25px;
     height: 320px;
     width: 310px;
     border-radius: 5px;
+    overflow: scroll;
+    overflow-y: scroll;
 }
 #textBox
 {
@@ -460,55 +469,80 @@ td
 }
 .messageBox 
 {
-    width: auto;
-    margin: 50px auto;
-    border-radius: 15px;
-    background: #00bfb6;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    font-weight: 900;
+    max-width: 180px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
     font-family: arial;
     position: relative;
+    font-size: 12px;
+    line-height: 20px;
 }
-.sb13:before
+.senderUserName
 {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 15px solid #00bfb6;
-    border-right: 15px solid transparent;
-    border-top: 15px solid #00bfb6;
-    border-bottom: 15px solid transparent;
-    right: -16px;
-    top: 0px;
+    color: #4753ba;
+    text-align: left;
+    padding-bottom: 2px;
 }
-.sb14:before
+.receiverUserName
+{
+    color: #4753ba;
+    text-align: right;
+    padding-bottom: 2px;
+}
+#senderFlex
+{
+    display: flex;
+}
+.sender
+{   
+    margin-left: 30px;
+    background-color: #dfdff6;
+    color: #5f66b6;
+}
+.sender:before
 {
     content: "";
     width: 0px;
     height: 0px;
     position: absolute;
     border-left: 15px solid transparent;
-    border-right: 15px solid #00bfb6;
-    border-top: 15px solid #00bfb6;
+    border-right: 15px solid #dfdff6;
+    border-top: 15px solid #dfdff6;
     border-bottom: 15px solid transparent;
     left: -16px;
     top: 0px;
 }
+#receiverFlex
+{
+    flex-direction: row-reverse;
+    display: flex;
+    margin-right: 20px;
+}
+.receiver
+{
+    margin-right: 30px;
+    background-color: #eff0f4;
+    color: #898e94;
+    text-align: right;
+}
+.receiver:before
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid #eff0f4;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #eff0f4;
+    border-bottom: 15px solid transparent;
+    right: -16px;
+    top: 0px;
+}
 
 /*
-for triangle
-w:0
-h:0
-bottom:x
-left:x
-top:x
-one is transparent
 
-parent: relative
-child: absolute
 
 google font : roboto
 ellipse
