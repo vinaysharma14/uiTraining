@@ -146,6 +146,34 @@ h6
     margin-top: 25px;
     margin-left: 110px;
 }
+.ribbon
+{
+    float: right;
+    margin-top: 18px;
+    height: 20px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 12px;
+    padding-left: 12px;
+}
+.first
+{
+    background-color: #46a399;
+}
+.second
+{
+    background-color: #e74a67;
+}
+.third
+{
+    background-color: #3aa5f7;
+}
+.fourth
+{
+    background-color: #f6b443; 
+}
 .statsValues
 {
     color: #f7f8fe;
