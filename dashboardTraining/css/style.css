@@ -131,6 +131,40 @@ h6
     justify-content: center;
     padding-left: 10px;
 }
+.statsIcons
+{
+    float: left;
+    margin-left: 18px;
+    margin-top: 25px;
+    background-color:#7b83d9;
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+}
+.statsHeads
+{
+    margin-top: 25px;
+    margin-left: 110px;
+}
+.statsValues
+{
+    color: #f7f8fe;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+.statsFoots
+{
+    margin-top: 32px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.arrows
+{
+    float: right;
+    margin-top: -15px;
+    margin-right: 25px;
+}
 #companyName
 {
     font-size: 22px;
