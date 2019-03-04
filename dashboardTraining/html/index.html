@@ -11,24 +11,33 @@
             <h6>MAIN</h6>
             <div id="sideNavBarFlex">
                 <ul>
-                    <li class="navOptions"><i class="fas fa-home navIcon"></i>Dashboard</li>
+                    <li class="navOptions" style="background-color: #393c4f;"><i class="fas fa-home navIcon"></i>Dashboard<p id="dashCount" class="notificationCounter">2</p></li>
                     <li class="navOptions"><i class="fas fa-calendar-week navIcon"></i>Calendar</li>
-                    <li class="navOptions"><i class="fas fa-envelope navIcon"></i>Email</li>
-                    <li class="navOptions"><i class="fas fa-box-open navIcon"></i>UI Elements</li>
-                    <li class="navOptions"><i class="fab fa-wpforms navIcon"></i>Forms</li>
-                    <li class="navOptions"><i class="fas fa-chart-pie navIcon"></i>Charts</li>
-                    <li class="navOptions"><i class="fas fa-table navIcon"></i>Tables</li>
-                    <li class="navOptions"><i class="far fa-smile navIcon"></i>Icons</li>
-                    <li class="navOptions"><i class="fas fa-map-marker-alt navIcon"></i>Maps</li>
+                    <li class="navOptions"><i class="fas fa-envelope navIcon"></i>Email<i class="fas fa-angle-right rightAngle"></i></li>
+                    <li class="navOptions"><i class="fas fa-box-open navIcon"></i>UI Elements<i class="fas fa-angle-right rightAngle"></i></li>
+                    <li class="navOptions"><i class="fab fa-wpforms navIcon"></i>Forms<p id="formCount" class="notificationCounter">9</p></li>
+                    <li class="navOptions"><i class="fas fa-chart-pie navIcon"></i>Charts<i class="fas fa-angle-right rightAngle"></i></li>
+                    <li class="navOptions"><i class="fas fa-table navIcon"></i>Tables<i class="fas fa-angle-right rightAngle"></i></li>
+                    <li class="navOptions"><i class="far fa-smile navIcon"></i>Icons<i class="fas fa-angle-right rightAngle"></i></li>
+                    <li class="navOptions"><i class="fas fa-map-marker-alt navIcon"></i>Maps<p id="mapsCount" class="notificationCounter">2</p></li>
                 </ul>
             </div>
         </div>
         <div class="userDashboard">
             <div id="dashHead"><i id="hamburger" class="fas fa-bars"></i>
             <button id="dropDown">Create&nbsp;&nbsp;<i class="fas fa-caret-down"></i></button>
-            <input id="searchBox" type="search" placeholder="Search..">
-            <i id="bellIcon" class="far fa-bell"></i>
-            <img id="adminIcon" src="../images/adminIcon.png">
+            <div id="searchDiv">
+                <input id="searchBox" type="search" placeholder="Search..">
+                <i  id="searchIcon" class="fas fa-search"></i>
+            </div>
+            <div id="dashHeadContainer">
+                <img id="langFlag" src="../images/flag.png">
+                <p id="languageSelector">English&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-down"></i></p>
+                <i  id="expandIcon" class="fas fa-expand"></i>
+                <i id="bellIcon" class="far fa-bell"></i>
+                <img id="adminIcon" src="../images/adminIcon.png">
+            </div>
+            </div>
             </div>
             <div class="userInteraction">
                 <div id="userSettings">
@@ -85,21 +94,84 @@
                             </tr>
                             <tr>
                                 <td class="idColumn">#14256</td>
-                                <td class="nameColumn">Philip Smaed</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
                                 <td class="dateColumn">15/1/2018</td>
                                 <td class="amountColumn">$94</td>
                                 <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
                             </tr>
                             <tr>
-                                    <td class="idColumn">#14256</td>
-                                    <td class="nameColumn">Philip Smaed</td>
-                                    <td class="dateColumn">15/1/2018</td>
-                                    <td class="amountColumn">$94</td>
-                                    <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
-                             </tr>
-                             <tr>
                                 <td class="idColumn">#14256</td>
-                                <td class="nameColumn">Philip Smaed</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
+                                <td class="dateColumn">15/1/2018</td>
+                                <td class="amountColumn">$94</td>
+                                <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
+                            </tr>
+                            <tr>
+                                <td class="idColumn">#14256</td>
+                                <td class="nameColumn"><i class="far fa-user userIcon"></i><p class="userName">Philip Smaed</p></td>
                                 <td class="dateColumn">15/1/2018</td>
                                 <td class="amountColumn">$94</td>
                                 <td class="statusColumn"><div id="statusFlex"><p class="userStatus">Status</p><button class="editButton">Edit</button></div></td>
