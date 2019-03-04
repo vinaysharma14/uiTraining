@@ -260,6 +260,11 @@ h6
     text-align: center;
     font-size: 12px;
 }
+.ribbonValue
+{
+    margin-top: -5px;
+    margin-left: 10px;
+}
 .first
 {
     border: solid 15px #46a399;
