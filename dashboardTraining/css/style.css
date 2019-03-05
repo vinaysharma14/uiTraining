@@ -22,6 +22,7 @@ body
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 1000;
 }
 ul
 {
@@ -87,10 +88,6 @@ h6
     float: right;
     margin-right: 30px;
     margin-top: 15px;
-}
-.userDashboard
-{
-    flex:1;
 }
 .userInteraction
 {
@@ -245,7 +242,7 @@ h6
     /*wrap not working*/
     justify-content: space-evenly;
 }  
-.userStats > div 
+.statsCard
 {
     background-color: #626ed4;
     font-size: 16px;
