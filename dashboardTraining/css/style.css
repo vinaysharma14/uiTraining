@@ -503,12 +503,14 @@ td
 }
 .senderUserName
 {
+    font-weight: bold;
     color: #4753ba;
     text-align: left;
     padding-bottom: 2px;
 }
 .receiverUserName
 {
+    font-weight: bold;
     color: #4753ba;
     text-align: right;
     padding-bottom: 2px;
@@ -519,7 +521,7 @@ td
 }
 .sender
 {   
-    margin-left: 30px;
+    margin-left: 10px;
     background-color: #dfdff6;
     color: #5f66b6;
 }
@@ -541,6 +543,10 @@ td
     flex-direction: row-reverse;
     display: flex;
     margin-right: 20px;
+}
+.chatUserIcons
+{
+    margin-top: 15px;
 }
 .receiver
 {
