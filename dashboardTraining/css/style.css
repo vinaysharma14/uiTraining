@@ -470,6 +470,15 @@ td
     border-radius: 5px;
     overflow: scroll;
 }
+#chatBox::-webkit-scrollbar
+{
+    width: 5px;
+    height: 0px;
+}
+#chatBox::-webkit-scrollbar-thumb 
+{
+    background-color: #d7dbde;
+}
 #textBox
 {
     margin-top: 25px;
@@ -561,8 +570,8 @@ td
 {
     flex-direction: row-reverse;
     display: flex;
-    margin-left: 20px;
-    margin-right: -10px;
+    margin-left: 40px;
+    margin-right: -30px;
 }
 .chatUserIcons
 {
@@ -570,7 +579,7 @@ td
 }
 .receiver
 {
-    margin-right: 30px;
+    margin-right: 20px;
     background-color: #eff0f4;
     color: #898e94;
     text-align: right;
