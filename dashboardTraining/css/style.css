@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 *
 {
     margin:0;
     padding:0;
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
 }
 body
 {
@@ -23,6 +24,9 @@ body
     left: 0;
     top: 0;
     z-index: 1000;
+}
+.userDashboard {
+    flex:1;
 }
 ul
 {
@@ -240,7 +244,7 @@ h6
     display: flex;
     flex-wrap: wrap;
     /*wrap not working*/
-    justify-content: space-evenly;
+    padding: 10px;
 }  
 .statsCard
 {
@@ -253,7 +257,8 @@ h6
     justify-content: center;
     padding-left: 10px;
     max-width: 300px;
-    flex-grow: auto;
+    flex: auto;
+    margin: 10px;
 }
 .statsIconsDiv
 {
@@ -361,12 +366,14 @@ h6
 .userActions
 {
     display: flex;
+    flex-wrap: wrap;
 }
 #userTransactions
 {
     background-color:white;
     height:auto;
-    width: 770px;
+    min-width: 300px;
+    flex: auto;
     margin-left: 28px;
     margin-top: 34px;
     border-radius: 5px;
@@ -375,7 +382,8 @@ h6
 {
     background-color:white;
     height: 460px;
-    width: 360px;
+    min-width: 300px;
+    flex: auto;
     margin-left: 30px;
     margin-top: 34px;
     border-radius: 5px;
@@ -385,7 +393,6 @@ table,th,td
     border-collapse: collapse;
     height: 40px;
     margin-left: 25px;
-    width: 720px;
 }
 th
 {
@@ -623,6 +630,12 @@ td
     #dashHead
     {
         left: 0;
+        transition: 0.5s;
+    }
+    .userInteraction
+    {
+        margin-left: -220px;
+        transition: 0.5s;
     }
 }
 /*
@@ -634,8 +647,6 @@ modularity in css code
 functions and imports
 mixin
 
-media query
-meta name viwport 1.0
 google font : roboto
 
 jquery on ham icon to toggle sideNavBar
