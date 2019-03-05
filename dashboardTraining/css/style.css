@@ -45,6 +45,7 @@ h6
 .navOptions:hover
 {
     background-color: #393c4f;
+    color: #b1bed1;
     cursor: pointer;
     height: 50px;
     padding-top: 5px;
@@ -453,6 +454,12 @@ td
     width: 40px;
     border-radius: 3px;
     height: 30px;
+}
+.editButton:hover
+{
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 50px;
 }
 #chatBox
 {
