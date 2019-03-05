@@ -109,6 +109,12 @@ h6
     color: white;
     font-size:12px;
 }
+#settingButton:hover
+{
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 50px;
+}
 .navIcon
 {
     margin-right: 10px;
@@ -272,6 +278,7 @@ h6
     height: 30px;
     text-align: center;
     font-size: 12px;
+    /*This is causing problem*/
     position: relative;
 }
 .ribbon::before
@@ -388,8 +395,11 @@ th
 }
 .userIcon
 {
-    font-size: 30px;
+    height: 50px;
+    width: 50px;
     float: left;
+    border-radius: 50px;
+    margin-right: 20px;
 }
 td
 {
@@ -404,7 +414,7 @@ td
 }
 .userName
 {
-    margin-top: 10px;
+    margin-top: 18px;
     margin-left: 50px;
 }
 .idColumn
@@ -429,7 +439,7 @@ td
     color: white;
     border-radius: 3px;
     padding: 3px;
-    width: 30px;
+    max-width: 50px;
     font-size: 10px;
     margin-top: 5px;
     height: 10px;
