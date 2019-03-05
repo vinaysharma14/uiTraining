@@ -554,7 +554,8 @@ td
 {
     flex-direction: row-reverse;
     display: flex;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: -10px;
 }
 .chatUserIcons
 {
