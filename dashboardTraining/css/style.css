@@ -23,6 +23,10 @@ body
     left: 0;
     top: 0;
 }
+ul
+{
+    list-style: none;
+}
 #sideNavBarFlex
 {
    display: flex;
@@ -144,6 +148,7 @@ h6
 }
 #dropDown
 {
+    min-width: 75px;
     margin-top: 15px;
     margin-left: 35px;
     height: 35px;
@@ -612,8 +617,31 @@ td
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 500px)
+{
+    #sideNavBar
+    {
+        display: none;
+    }
+    #dashHead
+    {
+        left: 0;
+    }
+}
 /*
+
+less css @var
+sass css $var
+variable declaration
+modularity in css code
+functions and imports
+mixin
+
+media query
+meta name viwport 1.0
 google font : roboto
+
+jquery on ham icon to toggle sideNavBar
 
 link hover
 ease in ease out
