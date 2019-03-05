@@ -134,6 +134,8 @@ h6
     left: 220px;
     right: 0;
     display: flex;
+    /* Z-index used as the ribbon and chat boxes were overlapping with this */
+    z-index: 900;
 }
 #hamburger
 {
@@ -279,7 +281,6 @@ h6
     height: 30px;
     text-align: center;
     font-size: 12px;
-    /*This is causing problem*/
     position: relative;
 }
 .ribbon::before
