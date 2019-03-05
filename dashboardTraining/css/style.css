@@ -42,6 +42,15 @@ h6
     height: 45px;
     padding-left: 20px;
 }
+.navOptions:hover
+{
+    background-color: #393c4f;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 5px;
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
 .notificationCounter
 {
     float: right;
@@ -235,7 +244,7 @@ h6
     max-width: 300px;
     flex-grow: auto;
 }
-.statsIcons
+.statsIconsDiv
 {
     float: left;
     margin-left: 18px;
@@ -244,6 +253,10 @@ h6
     height: 60px;
     width: 60px;
     border-radius: 3px;
+}
+.statsIcons
+{
+    padding: 10px;
 }
 .statsHeads
 {
@@ -439,7 +452,6 @@ td
     width: 310px;
     border-radius: 5px;
     overflow: scroll;
-    overflow-y: scroll;
 }
 #textBox
 {
@@ -542,10 +554,7 @@ td
 }
 
 /*
-
-
 google font : roboto
-ellipse
 
 link hover
 ease in ease out
