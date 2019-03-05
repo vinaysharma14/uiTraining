@@ -538,6 +538,18 @@ td
     left: -16px;
     top: 0px;
 }
+.senderTimeFlex
+{
+    display: flex;
+    flex-direction: column;
+}
+.senderTime
+{
+    color: #909396;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 #receiverFlex
 {
     flex-direction: row-reverse;
@@ -568,7 +580,20 @@ td
     right: -16px;
     top: 0px;
 }
-
+.receiverTime
+{
+    color: #909396;
+    float: right;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.receiverTimeFlex
+{
+    display: flex;
+    flex-direction: column;
+}
 /*
 google font : roboto
 
