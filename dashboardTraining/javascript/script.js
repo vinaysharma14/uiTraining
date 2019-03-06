@@ -21,4 +21,4 @@ $(document).ready(function()
             $(".userInteraction").css("transition","0.5s"); 
         }
     });
-});
+}); 

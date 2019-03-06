@@ -7,17 +7,76 @@
     padding-right: 10%;
     justify-content: flex-end;
 }
-.container-fluid
+.companyIntro
 {
     background-color: rgb(22,122,246);
-    height: 300px;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 4%;
 }
-p
+#companyIntroPara
 {
     font-weight: lighter;
     color: #6fadf5;
+    overflow-wrap: break-word;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.companyWork
+{
+    padding: 5% 10%;
+}
+h2
+{
+    font-weight: normal;
+}
+.companyContact
+{
+    font-size: 14px;
+    color: black;
+}
+.cards
+{
+    height: 200px;
+    width: 300px;
+}
+.sticky
+{
+    background-image: url("../images/mac.jpg");
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    background-position-y: 70%;
+}
+#stickyTextHead
+{
+    color: white;
+    text-align: center;
+}
+#stickyText
+{
+    color: white;
+    text-align: center;
+}
+#priceHead
+{
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 40px;
+    font-weight: normal;
+}
+#priceText
+{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -10px;
+}
+#freeButton
+{
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
 }
