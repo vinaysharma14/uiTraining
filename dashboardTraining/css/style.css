@@ -391,53 +391,44 @@ h6
 table,th,td
 {
     border-collapse: collapse;
-    height: 40px;
     margin-left: 25px;
     max-width: 720px;
+    text-align: left;
 }
 th
 {
     border-top: 1px solid #dde0e3;
     border-bottom: 2px solid #dde0e3;
-    text-align: left;
-    padding-left: 20px;
     height: 40px;
-    font-size: 14px;
-    color: #75797c;
+    font-size: 13px;
+    color: #72757a;
 }
 td
 {
     border-top: 1px solid #dde0e3;
     border-bottom: 1px solid #dde0e3;
     text-align: left;
-    padding-left: 20px;
+    height: 70px;
     font-size: 13px;
     color: #87888d;
-    align-content: center;
+}
+.userId
+{
+    color: #72757a;
 }
 .userIcon
 {
     height: 50px;
     width: 50px;
     border-radius: 50px;
+    float: left;
 }
 .userName
 {
-    margin-left: 60px;
+    margin-top: 18px;
+    margin-left: 70px;
 }
-.idColumn
-{
-    width: 200px;
-}
-.amountColumn
-{
-    width: 350px;
-}
-.dateColumn
-{
-    width: 400px;
-}
-#statusFlex
+.statusFlex
 {
     display: flex;
 }
@@ -449,12 +440,12 @@ td
     padding: 3px;
     max-width: 50px;
     font-size: 10px;
-    margin-top: 5px;
+    margin-top: 6px;
     height: 10px;
 }
 .editButton
 {
-    margin-left: 50px;
+    margin-left: 60px;
     background-color: #666dd4;
     color: white;
     border: none;
@@ -544,7 +535,7 @@ td
 }
 .sender
 {   
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: #dfdff6;
     color: #5f66b6;
 }
