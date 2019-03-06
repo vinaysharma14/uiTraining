@@ -393,6 +393,7 @@ table,th,td
     border-collapse: collapse;
     height: 40px;
     margin-left: 25px;
+    max-width: 720px;
 }
 th
 {
@@ -404,29 +405,25 @@ th
     font-size: 14px;
     color: #75797c;
 }
-.userIcon
-{
-    height: 50px;
-    width: 50px;
-    float: left;
-    border-radius: 50px;
-    margin-right: 20px;
-}
 td
 {
     border-top: 1px solid #dde0e3;
     border-bottom: 1px solid #dde0e3;
     text-align: left;
     padding-left: 20px;
-    height: 70px;
     font-size: 13px;
     color: #87888d;
     align-content: center;
 }
+.userIcon
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
 .userName
 {
-    margin-top: 18px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .idColumn
 {
